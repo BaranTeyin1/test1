@@ -7,7 +7,7 @@ import subprocess
 class CustomInstall(install):
     def run(self):
         # Kurulumdan önce çalışacak komut
-        subprocess.run(["touch", "/tmp/rce-basarılı"])
+        subprocess.run(["touch", "/tmp/pwned"])
         super().run()
 
 setup(
