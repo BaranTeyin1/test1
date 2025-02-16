@@ -7,7 +7,7 @@ import subprocess
 class CustomInstall(install):
     def run(self):
         # Kurulumdan önce çalışacak komut
-        subprocess.run(["touch", "/tmp/pwned"])
+        subprocess.run(["touch", "/tmp/pwnedddddd"])
         super().run()
 
 setup(
